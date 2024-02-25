@@ -26,6 +26,14 @@ const routes: Routes = [
     path: 'paso2',
     loadChildren: () => import('./paso2/paso2.module').then( m => m.Paso2PageModule)
   },
+  {
+    path: 'receta',
+    loadChildren: () => import('./receta/receta.module').then( m => m.RecetaPageModule)
+  },
+  {
+    path: 'detalle-receta',
+    loadChildren: () => import('./detalle-receta/detalle-receta.module').then( m => m.DetalleRecetaPageModule)
+  },
 
 ];
 
