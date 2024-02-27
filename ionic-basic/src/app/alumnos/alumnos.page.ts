@@ -9,7 +9,9 @@ import { AlumnosService } from '../service/alumnos.service'
 export class AlumnosPage implements OnInit {
 
   alumnos:Alumno[]= [];
+  
   nombre: string = '';
+  
   matricula: string ='';
   estado: string = '';
   idActualizar: any;
